@@ -1,0 +1,120 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+/* Header Section */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+.institute-info {
+    text-align: center;
+    color: #026c30;
+}
+
+.institute-info h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.badge img {
+    max-width: 80px;
+    margin-left: 10px;
+}
+
+.navbar {
+    background-color: #555;
+    color: white;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 10px 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Courses Section */
+.courses {
+    text-align: center;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.courses h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.course-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.course-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+
+.course-item img {
+    width: 100%;
+    height: 180px;
+    border-bottom: 1px solid #ddd;
+}
+
+.course-item h3 {
+    margin: 10px 0;
+    color: #026c30;
+    font-size: 20px;
+}
+
+.course-item p {
+    font-size: 14px;
+    color: #555;
+}
+
+.course-item:hover {
+    transform: scale(1.05);
+}
